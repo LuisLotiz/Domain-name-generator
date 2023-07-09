@@ -11,7 +11,7 @@ const generateUrls = () => {
         for (let adj of adjs) {
             for (let noun of nouns) {
                 for (let extension of extensions) {
-                    urls.push(`${pronoun}${adj}${noun}${extension}`)
+                    urls.push(pronoun + adj + noun + extension)
                 }
             }
         }
